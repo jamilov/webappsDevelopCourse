@@ -56,4 +56,3 @@ if __name__ == '__main__':
         test = {}
         anyKey = random.choice(list(objects[i].dictionary.keys()))
         print(f"Ключ: {anyKey}, кол-во отрицательных элементов: {MyClass.process(objects[i], anyKey)}")
-        #test
